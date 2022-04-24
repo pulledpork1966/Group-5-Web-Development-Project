@@ -1,0 +1,49 @@
+<!DOCTYPE html>    
+<html lang="en">    
+<head>    
+         <!--Name: GROUP 5
+              Purpose: Employee Fuel Calculator  
+           -->    
+    <meta charset="utf-8" />  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+    <title>Employee Calculator</title>  
+    <link rel="stylesheet" href="group5-hr-style.css" type="text/css"/>	
+</head>    
+
+<body>
+<div class="container">    
+<header class="white">
+  <h1>Employee Fuel Calculator</h1>
+</header>
+<aside>
+  <p> This form allows you to calculate the fuel cost for a trip. Please complete the form below.</p>
+</aside>
+<br>
+<main>
+<form id="fuelCost" class ="alignment" action="group5-hr-feul.php" method="post">
+	<fieldset>
+	<legend>Trip Information</legend>
+		  <label for="milesPG">Enter the car's average miles per gallon</label>
+		  <input type="text" id="milePG" name="milesPG">
+		  <br>
+		  <label for="costPG">Expected Cost of Gas Per Gallon</label>
+		  <input type="text" id="costPG" name="costPG">
+		  <br>
+		  <label for="tripLength">Enter Length of Trip</label>
+		  <input type="text" id="tripLength" name="tripLength">
+	</fieldset>
+<br>
+ 
+
+<br>
+  <button type="submit" form="fuelCost">Calculate</button>
+  </form>
+  </main>
+<br>
+<footer>
+  <a class ="white" href="group5-hr-portal.html">Return to HR Portal</a>
+ </footer>
+  </div>
+
+</body>    
+</html>

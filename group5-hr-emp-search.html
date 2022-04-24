@@ -1,0 +1,45 @@
+<!DOCTYPE html>    
+<html lang="en">    
+<head>    
+         <!--Name:  GROUP 5     
+              Purpose: Employee Search by Last Name or Emp ID
+           -->    
+    <meta charset="utf-8" />  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+    <title>Employee Search</title>  
+    <link rel="stylesheet" href="group5-hr-style.css" type="text/css"/>	
+</head>    
+
+<body>
+<div class="container">    
+<header class="white">
+  <h1>Employee Search</h1>
+</header>
+<aside>
+  <p> This form allows you to search for an employee by an employee's last name or their employee ID. Please complete the form below and select submit.</p>
+</aside>
+<br>
+<main>
+<form id="employeeSearch" class ="alignment" action="group5-hr-emp-search.php" method="post">
+	<fieldset>
+	<legend>Employee Information</legend>
+		  <label for="lastName">Last Name</label>
+		  <input type="text" id="lastName" name="lastName">
+		  <label for="empID">Employee ID</label>
+		  <input type="text" id="empID" name="empID">
+	</fieldset>
+<br>
+ 
+
+<br>
+  <button type="submit" form="employeeSearch">Submit</button>
+  </form>
+  </main>
+<br>
+<footer>
+  <a class ="white" href="group5-hr-portal.html">Return to HR Portal</a>
+ </footer>
+  </div>
+
+</body>    
+</html>
