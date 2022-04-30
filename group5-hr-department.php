@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="group5-hr-style.css">
+</head>
+<body>
 <?php
 
 $servername = "localhost";
@@ -52,3 +58,10 @@ else
 
 
 ?>
+
+</body>
+<footer>
+<p><a href="group5-hr-department.html">Return to Form Page</a></p>
+<p><a class="portalfooter" href="group5-hr-portal.html">Return to Portal</a></p>
+</footer>
+</html>

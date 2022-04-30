@@ -1,0 +1,146 @@
+body
+{
+background-color: gray;
+font-family: Helvetica, Calibri, Arial Black;
+}
+
+
+
+header
+{
+background-color: gray;
+color: blue;
+text-align: center;
+border: 5px;
+padding: 10px;
+}
+
+
+
+nav ul
+{
+list-style-type: square;
+padding: 10px;
+font-size: 5px;
+}
+
+
+
+ul
+{
+list-style-type: square;
+padding: 10px;
+border: 5px;
+}
+
+
+
+li
+{
+border: 5px;
+padding: 10px;
+}
+
+
+
+nav
+{
+width: 50%;
+float: left;
+}
+
+
+
+a
+{
+text-decoration: none;
+color: blue;
+}
+
+
+
+img{
+border: 50px;
+width: 60%;
+}
+
+
+
+h1{color: green;}
+
+
+
+h2{color: yellow;}
+
+
+
+h3{color: red;}
+
+
+
+table, th, td{
+border: 2px solid black;
+}
+
+
+
+thead{
+background-color: gray;
+color: yellow;
+}
+
+
+
+tbody{
+color: black;
+}
+
+
+
+tfoot{
+font-size: 15px;
+color: red;
+background-color: white;
+}
+
+
+
+caption{
+font-family: Helvetica, Calibri, Arial Black;
+font-weight: 5px;
+font-size: 10px;
+color: gray;
+border: 1px solid black;
+}
+
+
+
+button{
+background-color: white;
+color: green;
+font-size: 20px;
+}
+
+
+
+legend{
+background-color: white;
+color: gray;
+padding: 5px;
+}
+
+
+
+.portalfooter{
+color: lightblue;
+font-size: 15px;
+margin: auto;
+}
+
+
+
+.portalanchor{
+color: lightblue;
+font-size: 20px;
+margin: auto;
+}
